@@ -1,0 +1,150 @@
+/* -----------------mobile ---------------*/
+
+@media (min-width:200px){ 
+
+
+nav{
+    display: none;
+}
+.one,
+.two,
+.three{
+    background-color: #fff;
+    height:5px;
+    width:100%;
+    margin:6px auto;
+    transition-duration: 0.3s;
+    flex-direction: row;
+    
+}
+.menu-toggle{
+    width:40px;
+    height: 30px;
+    
+    margin-right:5px;
+}
+.menu-section .menu-toggle{
+    position:absolute;
+    right:15px;
+    top:15px;
+    
+}
+/* fullscreen*/
+#header-materiais .menu-section.on{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: #841fa3;
+    z-index:10;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.menu-section.on{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: #841fa3;
+    z-index:10;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu-section.on nav{
+    display:block;
+}
+.menu-section.on .menu-toggle{
+    position:absolute;
+    right:15px;
+    top:15px;
+    
+}
+.menu-section.on .menu-toggle .one{
+    transform:rotate(45deg) translate(7px, 7px);
+}
+.menu-section.on .menu-toggle .two{
+    opacity:0;
+}
+.menu-section.on .menu-toggle .three{
+    transform:rotate(-45deg) translate(8px, -9px);
+}
+.menu-section.on nav ul{
+    text-align: center;
+    position:absolute;
+    justify-content: center;    
+    margin-inline:25%;
+    display:block;
+    flex-direction: column;
+}
+.menu-section.on nav ul a{
+    transition-duration: 0.5s;
+    font-size:1.5rem;
+    margin:0 auto;
+
+    display:block;
+}
+#navbar{
+    width:100%;
+    color:#fff;
+    height:80px;
+    
+}
+#navbar-container{
+    display: flex;
+    align-items: center;
+}
+#navbar-items{
+    display:flex;
+    list-style: none;
+    
+}
+#navbar-items li {
+    padding:10px;
+    text-decoration: none;
+}
+
+}
+
+/*----------------------TABLET-----------------------------------*/
+@media (min-width:760px){
+    
+
+
+}
+/*-----------------------DESKTOP-----------------------------------*/
+@media (min-width:800px){
+
+
+nav{
+    display: flex;
+}
+#navbar-container{
+    display: flex;
+    align-items: center;
+}
+#navbar-items{
+    display:flex;
+    list-style: none;
+    margin:0 auto;
+    position:absolute;
+    top:10px;
+    margin-inline:35rem;
+
+}
+.menu-toggle{
+    display:none;
+}
+
+.logo{
+    margin-left:2rem;
+}
+
+
+}

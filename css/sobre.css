@@ -1,0 +1,215 @@
+/* -----------------mobile ---------------*/
+
+@media (min-width:200px){
+    #header-sobre{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        height: 50vh;
+    }
+    #sobre-header{
+        padding-block:1rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .h1-sobre{
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    #sobre-header img{
+        max-width:20%;
+        margin:0 auto;
+        margin-top: .5rem;
+        transform: translateY(0px);
+        animation: float 2s ease-in-out infinite;
+       
+    }
+    @keyframes float{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-10px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    #sobre{
+        background-color: #F9F6F6;
+        padding-block:2rem;
+    
+    }
+    #sobre h2{
+        padding-bottom:1rem;
+    }
+    #sobre p{
+        margin-inline:2rem;
+        text-align: justify;
+        
+    }
+    #seguranca{
+        background-color: #EAE7E7;
+        padding-block:2rem;
+    }
+    #seguranca h2{
+        padding-top:2rem;
+        padding-bottom:1rem;
+    }
+    #seguranca p{
+        margin-inline:2rem;
+        text-align: justify;
+    }
+    #seguranca img{
+        display:flex;
+        margin:0 auto;
+        max-width:55%;
+    }
+    #autonomia{
+        background-color: #F9F6F6;
+        padding-block:2rem;
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    #autonomia h2{
+        padding-top:2rem;
+        padding-bottom:1rem;
+    }
+    #autonomia p{
+        margin-inline:2rem;
+        text-align: justify;
+    }
+    #autonomia img{
+        display:flex;
+        flex-direction: column-reverse;
+        margin:0 auto;
+        max-width:55%;
+    }
+    #acessibilidade{
+        background-color: #EAE7E7;
+        padding-block:2rem;
+    }
+    #acessibilidade h2{
+        padding-top:2rem;
+        padding-bottom:1rem;
+    }
+    #acessibilidade p{
+        margin-inline:2rem;
+        text-align: justify;
+    }
+    #acessibilidade img{
+        display:flex;
+        margin:0 auto;
+        max-width:55%;
+    }
+    #rectangle-fotos{
+        display:flex;
+        flex-direction: column;
+        padding-block: 2rem;
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+    }
+    #rectangle-fotos img{
+        display: flex;
+        padding:.3rem;
+        margin:0 auto;
+        max-width:70%;
+    }
+    
+ }
+
+ /*----------------------TABLET-----------------------------------*/
+@media (min-width:760px){
+    #seguranca img, 
+#autonomia img,
+#acessibilidade img{
+    max-width:40%;
+}
+#rectangle-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#rectangle-fotos img{
+    margin-inline: .1rem;
+    max-width:32%;
+}
+}
+/*-----------------------DESKTOP-----------------------------------*/
+@media (min-width:800px){
+    #header-sobre{
+        height:70vh;
+    }
+    #sobre-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:50vw;
+        margin:10px auto;
+    }
+    .h1-sobre{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    #sobre{
+        padding-block:5rem;
+        padding-inline: 12rem;
+    }
+    #sobre p{
+        text-align: center;
+    }
+    #seguranca{
+        display: flex;
+    }
+    #seguranca p{
+        width:42.5rem;
+    }
+    .texto{
+        padding-right:3rem;
+    }
+    #seguranca img{
+        max-width:25%;
+    }
+    #autonomia{
+        display: flex;
+        flex-direction: row;
+    }
+    #autonomia p{
+        width:42.5rem;
+    }
+    #autonomia .texto{
+        padding-left: 3rem;
+        padding-right: 0;
+    }
+    #autonomia img{
+        max-width:25%;
+    }
+    #acessibilidade{
+        display: flex;
+    }
+    #acessibilidade p{
+        width:42.5rem;
+    }
+    #acessibilidade img{
+        max-width:25%;
+    }
+    #rectangle-fotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #rectangle-fotos img{
+        margin-inline: .5rem;
+        max-width:50%;
+    }
+    #video{
+        background-color: #EAE7E7;
+    }
+    #video h2{
+        padding-block: 2rem;
+        color:rgba(0, 0, 0, 0.918);
+    }
+}

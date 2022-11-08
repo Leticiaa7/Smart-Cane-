@@ -1,0 +1,157 @@
+/* -----------------mobile ---------------*/
+
+@media (min-width:200px){
+    #header-contato{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        min-height: 100vh;
+    }
+    #quem-somos{
+        color:#fff;
+        padding-bottom:2rem;
+    }
+    
+    .first-li{
+        padding-block:3rem;
+        padding-inline:3rem;
+        color:#fff;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        width:22.5rem;
+        margin:0 auto;
+        margin-bottom: 7px;
+        
+    }
+    .two-li{
+        margin:0 auto;
+        padding-block:3rem;
+        padding-inline:3rem;
+        color:#fff;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        width:22.5rem;
+    }
+    .image-inovacao{
+        display: flex;
+        padding-top:10px;
+        margin:0 auto;
+        max-width:80px;
+    }
+    .image-final-header-contato{
+        width:100px;
+        display:flex;
+        padding-block: 2rem;
+        margin:0 auto;
+    }
+    #nós{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        padding-block:2rem;
+        
+    }
+    #nós h2{
+        color:#fff;
+        padding-bottom: 1.2rem;
+    }
+    .container-contatos{
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding-block:1rem;
+        padding-inline: 2rem;
+        margin:0 50px auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contato img{
+        margin:0 auto;
+        display:block;
+        max-width:100%;
+    }
+    
+    .nome-contato{
+        color:#fff;
+        text-align: center;
+    }
+    .nome-insta{
+        color:#fff;
+        text-align: center;
+        font-weight: italic;
+        font-size:16px;
+        padding-bottom:2px;
+    }
+    #bibliografia{
+        padding-block:2rem;
+    }
+    #bibliografia h2{
+        padding-bottom:2rem;
+    }
+    #bibliografia img{
+        max-width:100%;
+        cursor:pointer;
+        border: none;
+    }
+    .bibliografia-images{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding-block:2rem;
+        margin-inline:5rem;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+    
+    }
+    .bibliografia-images img{
+        margin-inline:10px;
+        margin-block: 2rem;
+        width:90%;
+    }
+}
+
+/*----------------------TABLET-----------------------------------*/
+@media (min-width:760px){
+
+    #header-contato{
+        min-height: 60vh;
+    }
+    #explicacao-nós{
+        display:flex;
+        margin-inline:1rem;
+    }
+    
+    .container-contatos{
+        display:flex;
+        flex-direction: row;
+    }
+    .nome-contato{
+        font-weight: 700;
+    }
+}
+/*-----------------------DESKTOP-----------------------------------*/
+@media (min-width:800px){
+    #header-contato{
+        height:100vh;
+    }
+    #quem-somos{
+        position:relative;
+        bottom:50px;
+    }
+    #explicacao-nós{
+        display:flex;
+        margin-inline:12rem;
+        position:relative;
+        bottom:20px;
+    }
+    .logo-final-header-contato{
+        padding-bottom:4rem;
+    }
+    .container-contatos{
+        display:flex;
+        flex-direction: row;
+    }
+    .container-contatos img{
+        margin-inline:2rem;
+    }
+    .nome-contato{
+        font-weight: 700;
+    }
+    
+}

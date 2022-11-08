@@ -1,0 +1,210 @@
+/* -----------------mobile ---------------*/
+
+@media (min-width:200px){
+    #header-materiais{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        height: 50vh;
+    }
+    
+    #materiais-header{
+        padding-block:1rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .h1-materiais{
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    #materiais-header img{
+        max-width:20%;
+        margin:0 auto;
+        margin-top: .5rem;
+        transform: translateY(0px);
+        animation: float 2s ease-in-out infinite;
+       
+    }
+    @keyframes float{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-10px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    #como-fazer{
+        background-color: #F9F6F6;
+        padding-block:2rem;
+    
+    }
+    #como-fazer h2{
+        padding-bottom:1rem;
+    }
+    #como-fazer p{
+        margin-inline:2rem;
+        text-align: justify;
+        
+    }
+    #materiais{
+        background-color: #EAE7E7;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    
+    }
+    .material{
+        padding-top: 2.5rem;
+        display:flex;
+        flex-direction: column;
+        margin-inline:1rem;
+    }
+    .material img{
+        margin:0 auto;
+        display:block;
+        max-width:100%;
+    }
+    .numero-animacao{
+        transform: translate(-50%, -50%);
+        animation: anim 2s infinite alternate linear;
+        border-radius:20%;
+        margin-top:1.5rem;
+        margin-left:1rem;
+        padding-inline:8px;
+        text-align: center;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .numero{
+        color:#fff;
+        font-weight: 500;
+    }
+    
+    @keyframes anim{
+        0%{
+            background: #d002f5;
+        }
+        25%{
+            background: #e320fd;
+        }
+        50%{
+            background: #e05cf5;
+        }
+        75%{
+            background: #841fa3;
+        }
+        100%{
+            background: #590366;
+        }
+    }
+    .nome-materiais{
+        display:flex;
+        padding-top:.4rem;
+        font-size:17px;
+        flex-direction:row;
+    }
+    .nome-materiais-grande{
+        display:flex;
+        font-size:15px;
+        padding-top:.4rem;
+        flex-direction:row;
+    }
+    .preco{
+        position: relative;
+        bottom:1.2rem;
+        margin-left: 4rem;
+        font-size: 1rem;
+    
+    }
+    .numero-nome{
+        display:flex;
+    }
+    #projeto-em-andamento{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        margin:0 auto;
+        
+    
+    }
+    #projeto-em-andamento h2{
+        color:#fff;
+        padding-block:2rem;
+    }
+    .projeto-em-andamento-fotos{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #projeto-em-andamento img{
+        padding-bottom:1rem;
+        margin:0 auto;
+         max-width: 80%;
+    }
+}
+
+/*----------------------TABLET-----------------------------------*/
+@media (min-width:760px){
+    .numero-animacao{
+        margin-left: 4rem;
+    }
+    .preco{
+        margin-left: 6.5rem;
+    }
+    #projeto-em-andamento img{
+        max-width:70%;
+    }
+}
+/*-----------------------DESKTOP-----------------------------------*/
+@media (min-width:800px){
+    #header-materiais{
+        height:70vh;
+    }
+    #materiais-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:50vw;
+        margin:10px auto;
+    }
+    .h1-materiais{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    #como-fazer{
+        padding-block:5rem;
+        padding-inline: 12rem;
+    }
+    #como-fazer p{
+        text-align: center;
+    }
+    #materiais{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .numero-animacao{
+        margin-left: 6rem;
+    }
+    .preco{
+        margin-left: 8.5rem;
+    }
+    .nome-materiais p,
+    .nome-materiais-grande{
+        font-size: 19px;
+    }
+    .projeto-em-andamento-fotos{
+        display: flex;
+        padding-bottom:3rem;
+    
+    }
+    .projeto-em-andamento-fotos img{
+        margin-inline:0rem;
+    }
+    
+}

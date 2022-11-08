@@ -1,0 +1,512 @@
+/* -----------------mobile ---------------*/
+
+@media (min-width:200px){
+    #header-index{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        min-height: 70vh;
+    }
+    .first-principal{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-principal{
+        width:8.3125rem;
+        height:7.9375rem;
+        margin: 0 auto;
+        display:block;
+        justify-content: center;
+    }
+    .image-index{
+        display:none;
+       /* width: 431px;
+        height: 557px;
+        display:block;
+        margin:5px auto;*/
+    
+    }
+    .p-principal-index{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 38px;
+        width:22rem; 
+        margin:0 auto;
+        padding:1.5rem;
+        margin-bottom:5rem;
+        text-align: center;
+        color:#3C3B3B;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+    }
+    .image-index{
+        margin-top:-5px;
+        max-width: 85%;
+        margin-bottom: 2rem;
+    }
+    /*
+    width: 26.9375rem
+    height: 34.8125rem;
+    */
+    #deficientes-visuais{
+    
+        background-color: #F9F6F6;
+        padding-block: 2rem;
+       
+    }
+    #deficientes-visuais h2{
+        padding-block:2rem;
+    }
+    #deficientes-visuais p{
+        margin-inline:2rem;
+    }
+    #deficientes-visuais img{
+        max-width: 50%;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    #tecnologia-assistiva img{
+        max-width: 70%;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    #tecnologia-assistiva{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        justify-content: center;
+        align-items: center;
+        padding-block: 2rem;
+    }
+    
+    #tecnologia-assistiva h2{
+        padding-block: 2rem;
+        color:#Fff;
+    }
+    #tecnologia-assistiva p{
+        color:#fff;
+        margin-inline:2rem;
+        text-align: justify;
+    }
+    #dificuldade{
+        padding-block: 2rem;
+        background-color: #F9F6F6;
+        margin: 0 auto;
+        justify-content:center;
+        max-width:90%;
+    }
+    .dificuldade{
+        background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+        border-radius: 20px;
+        padding-bottom: 1rem;
+    }
+    
+    .dificuldade h2{
+        color:#Fff;
+        padding-block: 2rem;
+    
+    }
+    .dificuldade p{
+        color:#Fff;
+        margin-inline:2rem;
+        text-align:justify;
+    }
+    .dificuldade img{
+       display:block;
+       margin:20px auto;
+       max-width:60%;
+    }
+    /*
+        Parte do slide - index
+    */
+    #slide-index{
+        min-height: 70vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        background-color: #efefef;
+    }
+    .slide-container{
+        max-width:1120px;
+        width:100%;
+        background-color: #efefef;
+        border-radius:20px;
+        padding:20px 0;
+    }
+    .slide-content{
+        margin:50px 50px;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .card{
+        border-radius: 25px;
+        background-color: #fff;
+        max-width:100%;
+    }
+    .image-content,
+    .card-content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:10px 14px;
+    }
+    .image-content{
+        position: relative;
+        row-gap: 5px;
+        padding:25px 0;
+        
+    }
+    .overlay{
+        position: absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        background-color: #65319D;
+        border-radius: 25px 25px 0 25px;
+    }
+    .overlay::before,
+    .overlay::after{
+        content:'';
+        position: absolute;
+        right: 0;
+        bottom:-40px;
+        height:40px;
+        width:40px;
+        background: #65319D;
+    }
+    .overlay::after{
+        border-radius:0 25px 0 0;
+    
+        background-color: #fff;
+    }
+    .card-image{
+        position:relative;
+        height:120px;
+        width:120px;
+        border-radius: 20%;
+        background: #F9F6F6;
+        padding:3px;
+    }
+    
+    .card-image .card-img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 20%;
+        border:4px solid #ac64f9;
+    }
+    .name{
+        font-size:17px;
+        font-weight: 550;
+        color: #5e5d5d;
+        z-index:2;
+    }
+    
+    .description{
+        font-size:13px;
+        color:#707070;
+        text-align:center;
+    }
+    .button{
+        border:none;
+        font-size:15px;
+        color:#fff;
+        padding:8px 16px;
+        background-color: #65319D;
+        border-radius: 6px;
+        margin:14px;
+        cursor:pointer;
+        transition:all .3s ease;
+    }
+    .button:hover{
+        background:#c211da;
+    }
+    .swiper-navBtn:hover{
+        color:#c211da;
+        transition:color .3s ease;
+    
+    }
+    .swiper-navBtn{
+        color:#180829;
+        
+    }
+    .swiper-navBtn::before,
+    .swiper-navBtn::after{
+        font-size: 40px;
+        
+    }
+    .swiper-button-next{
+        right:0;
+    }
+    .swiper-button-prev{
+        left:0;
+    }
+    .swiper-pagination-bullet{
+        background-color: #65319D;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #65319D;
+    }
+    
+    #objetivo{
+        background-color: #65319D;
+        text-align: center;
+        padding-block: 2rem;
+    }
+    #objetivo h2,
+    #objetivo p{
+        color:#fff;
+    }
+    #objetivo img{
+        width:8.8125rem;
+        height:8.4375rem;
+    }
+    #objetivo p{
+        padding-top:2rem;
+        margin-inline: 2rem;
+        text-align: justify;
+    }
+}
+
+/*----------------------TABLET-----------------------------------*/
+@media (min-width:760px){
+
+}
+/*-----------------------DESKTOP-----------------------------------*/
+@media (min-width:800px){
+   
+#header-index{
+    height:100vh;
+}
+.first-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:relative;
+    bottom:50px;
+    
+}
+.first-principal h1{
+    padding-block: 2rem;
+    text-transform: uppercase;
+}
+.logo-principal{
+    display:flex;
+    justify-content: center;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+   
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.second-principal{
+    width:50vw;
+}
+.image-index{
+    width: 431px;
+    height: 557px;
+    display:flex;
+    flex-direction: row;
+    margin:5px auto;
+    padding-bottom:2rem;
+
+}
+#deficientes-visuais{
+    display: flex;  
+    justify-content: center; 
+    
+}
+
+#deficientes-visuais p{
+    margin-left:5rem;
+    width:550px;
+}
+#deficientes-visuais img{
+   margin-inline:1.5rem;
+    
+}
+#tecnologia-assistiva{
+    padding-block: 4rem;
+}
+#tecnologia-assistiva img{
+    width:10%;
+    padding-top: 1rem;
+}
+#tecnologia-assistiva p{
+    margin:0 auto;
+    text-align: center;
+    width:60.75rem;
+}
+#dificuldade{
+    max-width:70%;
+}
+.dificuldade{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding-bottom: 0;
+    
+}
+.dificuldade p{
+    max-width: 27rem;
+}
+
+.img-dificuldade img{
+    max-width:80%;
+    display: block;
+    margin:90px auto;
+}
+.p-frase-index{
+    padding-inline:5rem;
+   
+}
+
+#objetivo p{
+    width:60.75rem;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+/*
+    Parte do slide - index
+*/
+#slide-index{
+    min-height: 70vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #efefef;
+}
+.slide-container{
+    max-width: 1120px;
+    width:100%;
+    background-color: #efefef;
+    border-radius:20px;
+    padding:20px 0;
+}
+.slide-content{
+    margin:50px 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px;
+    background-color: #fff;
+}
+.image-content,
+.card-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding:25px 0;
+    
+}
+.overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: #65319D;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content:'';
+    position: absolute;
+    right: 0;
+    bottom:-40px;
+    height:40px;
+    width:40px;
+    background: #65319D;
+}
+.overlay::after{
+    border-radius:0 25px 0 0;
+    background-color: #fff;
+}
+.card-image{
+    position:relative;
+    height:150px;
+    width:150px;
+    border-radius: 20%;
+    background: #F9F6F6;
+    padding:3px;
+}
+
+.card-image .card-img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 20%;
+    border:4px solid #ac64f9;
+}
+.name{
+    font-size:18px;
+    font-weight: 550;
+    color: #5e5d5d;
+}
+.description{
+    font-size:14px;
+    color:#707070;
+    text-align:center;
+}
+.button{
+    border:none;
+    font-size:16px;
+    color:#fff;
+    padding:8px 16px;
+    background-color: #65319D;
+    border-radius: 6px;
+    margin:14px;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+.button:hover{
+    background:#c211da;
+}
+.swiper-navBtn:hover{
+    color:#c211da;
+    transition:color .3s ease;
+
+}
+.swiper-navBtn{
+    color:#180829;
+    
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+    
+}
+.swiper-button-next{
+    right:0;
+}
+.swiper-button-prev{
+    left:0;
+}
+.swiper-pagination-bullet{
+    background-color: #65319D;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #65319D;
+}
+}
